@@ -5,7 +5,7 @@ pipeline {
 	stages{
 		stage ("pull scm"){
 			steps {
-				git branch: 'main', url: 'https://github.com/devsharma1401/testing.git'	
+				git branch: 'main', url: 'https://github.com/devsharma1401/testing.git' 	
 			}
 		}
 		stage ("Build"){
