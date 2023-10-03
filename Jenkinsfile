@@ -1,6 +1,6 @@
 pipeline {
 	agent {
-		label "Pipeline-slave"
+		label "slave-1"
 	}
 	stages{
 		stage ("pull scm"){
